@@ -29,9 +29,9 @@ public class conectionDB {
     public conectionDB() {
         String driver = "org.postgresql.Driver";  // Driver JDBC de PostgreSQL
         String user = "postgres";  // Tu usuario
-        String pwd = "1234";       // Tu contraseña
+        String pwd = "";       // Tu contraseña
         String host = "localhost"; // Dirección del servidor de base de datos
-        String port = "5432";      // Puerto por defecto de PostgreSQL
+        String port = "";      // Puerto por defecto de PostgreSQL
         String basedatos = "inventariostore"; // El nombre de tu base de datos
 
         // URL de conexión para PostgreSQL
